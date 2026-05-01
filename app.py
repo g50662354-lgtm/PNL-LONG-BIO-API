@@ -20,8 +20,8 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 app = Flask(__name__)
 
-FREEFIRE_UPDATE_URL = "https://clientbp.ggblueshark.com/UpdateSocialBasicInfo"
-MAJOR_LOGIN_URL = "https://loginbp.ggblueshark.com/MajorLogin"
+FREEFIRE_UPDATE_URL = "https://clientbp.ggpolarbear.com/UpdateSocialBasicInfo"
+MAJOR_LOGIN_URL = "https://loginbp.ggpolarbear.com/MajorLogin"
 OAUTH_URL = "https://100067.connect.garena.com/oauth/guest/token/grant"
 FREEFIRE_VERSION = "OB53"
 
